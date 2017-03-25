@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+video#bgvid {
+    position: fixed;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    opacity: .4;
+}
+img.grizChiroLogo {
+    max-width: 150px;
+}
+.navbar-default {
+    background-color: lightorange;
+    background-color: orange;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+    color: #777;
+    margin-right: 22px;
+}

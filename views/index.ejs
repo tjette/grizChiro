@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <% include ./partials/head %>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <% include ./partials/header %>
+     <video playsinline autoplay muted loop poster="/steel.jpeg" id="bgvid">
+        <!--<source src="/adobe.mov" type="video/webm">-->
+        <source src="./images/chiroVideo.mp4" type="video/mp4">
+    </video>
+    <script>
+        vid = document.getElementById("bgvid")
+        vid.play()
+    </script>
+    <div class=""><img class="grizChiroLogo" src="/images/grizChiroLogo.png">Grizzly Chiropractic</div>
+    <% include ./partials/footer %>
+  </body>
+</html>
