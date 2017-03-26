@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Griz Chiro' });
 });
 
+router.get('/contact', function(req, res) {
+  res.render('contact.ejs', { title: 'Griz Chiro' });
+});
+
 module.exports = router;

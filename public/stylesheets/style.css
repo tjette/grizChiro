@@ -9,6 +9,7 @@ a {
 video#bgvid {
     position: fixed;
     left: 50%;
+    top: 0px;
     min-width: 100%;
     min-height: 100%;
     width: 100%;
@@ -28,9 +29,23 @@ img.grizChiroLogo {
     background-color: lightorange;
     background-color: orange;
     border-color: #e7e7e7;
+    margin-top: -50px;
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 17px;
     color: #777;
     margin-right: 22px;
+}
+img.mainServices {
+    margin-top: 102px;
+    margin-left: 50px;
+}
+button.btn.btn-primary.treatments {
+    margin-left: 100px;
+}
+button.btn.btn-primary.services {
+    margin-left: 112px;
+}
+button.btn.btn-primary.otherServices {
+    margin-left: 92px;
 }
